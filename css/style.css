@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f172a; /* azul escuro */
+  color: #e5e7eb;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* CONTAINER DA TABELA */
+#tabela-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+/* TABELA */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #111827;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* HEADER */
+thead {
+  background: #1f2937;
+}
+
+th {
+  text-align: left;
+  padding: 12px;
+  font-size: 12px;
+  color: #9ca3af;
+  text-transform: uppercase;
+}
+
+/* LINHAS */
+td {
+  padding: 12px;
+  border-bottom: 1px solid #1f2937;
+  font-size: 14px;
+}
+
+/* hover estilo app esportivo */
+tr:hover {
+  background: #1f2937;
+}
+
+/* TIME */
+.team {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.team img {
+  width: 22px;
+  height: 22px;
+}
+
+/* RANKING destaque */
+td:first-child {
+  width: 40px;
+  color: #9ca3af;
+  font-weight: bold;
+}
+
+.btn-voltar {
+  margin: 15px;
+  padding: 10px 15px;
+  background: #1f2937;
+  color: #e5e7eb;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn-voltar:hover {
+  background: #374151;
+  transform: scale(1.05);
+}
